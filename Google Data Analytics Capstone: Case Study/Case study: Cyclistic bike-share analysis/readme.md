@@ -1,1 +1,23 @@
+# Case Study: How Does a Bike-Share Navigate Speedy Success?
 
+### Cyclistic
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that
+are geotracked and locked into a network of 692 stations across Chicago. <br>
+Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with
+disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about
+**8%** of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about **30%** use them to
+commute to work each day. <br>
+
+**Cyclistic’s** has three types of pricing plans: **single-ride passes, full-day passes,
+and annual memberships**.Customers who purchase *single-ride* or f*ull-day passes* are referred to as **casual riders**. Customers
+who purchase *annual memberships* are **Cyclistic members**.
+
+
+Company’s future success depends on maximizing the number of annual memberships as annual members are much more profitable than casual riders.
+
+We wants to understand how casual riders and annual members use Cyclistic bikes differently.
+
+### Goal: Design marketing strategies aimed at converting casual riders into annual members. 
+
+In order to do that, however, we need to better understand how annual members and casual riders differ, why
+casual riders would buy a membership, and how digital media could affect their marketing tactics.
