@@ -1,4 +1,4 @@
-# Projects & Case Studies
+# Case Studies
 ## Projects
 
 
