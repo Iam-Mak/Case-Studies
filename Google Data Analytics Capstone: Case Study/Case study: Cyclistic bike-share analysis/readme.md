@@ -21,3 +21,10 @@ We wants to understand how casual riders and annual members use Cyclistic bikes 
 
 In order to do that, however, we need to better understand how annual members and casual riders differ, why
 casual riders would buy a membership, and how digital media could affect their marketing tactics.
+
+#### Ask 
+These questions will guide the future marketing program:
+- 1. How do annual members and casual riders use Cyclistic bikes differently?
+- 2. Why would casual riders buy Cyclistic annual memberships?
+- 3. How can Cyclistic use digital media to influence casual riders to become members?
+
