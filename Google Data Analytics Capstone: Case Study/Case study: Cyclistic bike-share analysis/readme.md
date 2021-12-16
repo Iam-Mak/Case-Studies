@@ -22,9 +22,21 @@ We wants to understand how casual riders and annual members use Cyclistic bikes 
 In order to do that, however, we need to better understand how annual members and casual riders differ, why
 casual riders would buy a membership, and how digital media could affect their marketing tactics.
 
-#### Ask 
+### Ask 
 These questions will guide the future marketing program:
 - 1. How do annual members and casual riders use Cyclistic bikes differently?
 - 2. Why would casual riders buy Cyclistic annual memberships?
 - 3. How can Cyclistic use digital media to influence casual riders to become members?
 
+### Prepare 
+**Data Source:** Previous 12 months (from 10/2020 to 09/2021) of Cyclistic trip data downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- 12 csv. Files
+- 13 variables
+
+### Process 
+Check current data frames first to see what transformations need to be done before combining.<br>
+Cleaning and preparing for Analysis
+- Remove all latitude and longitude
+- Add columns that list the month and day of each ride.
+- Calculate the "ride_length" and add a new column
+- Remove trips that the ride length is <= 0 or more than one day
