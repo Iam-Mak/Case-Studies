@@ -29,7 +29,7 @@ These questions will guide the future marketing program:
 - 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ### Prepare 
-**Data Source:** Previous 12 months (from 10/2020 to 09/2021) of Cyclistic trip data downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+**Data Source:** Previous 12 months (from 12/2020 to 11/2021) of Cyclistic trip data downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
 - 12 csv. Files
 - 13 variables
 
