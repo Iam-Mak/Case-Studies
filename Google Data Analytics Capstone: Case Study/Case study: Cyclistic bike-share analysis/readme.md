@@ -88,7 +88,40 @@ Cleaning and preparing for Analysis
  |9| Clinton St & Madison St |         33273|
 |10| Clark St & Armitage Ave  |        32785|
 
-#### 2. Descriptive Analysis on Ride Length
+#### 2. Descriptive Analysis on Ride Length (in minutes)
 | Min.     |  1st Qu.|    Median  |    Mean |  3rd Qu.  |    Max. |
 |----------|---------|------------|---------|-----------|---------|
-|  0.0167  |  6.8333 |  12.1167 |  19.6732 |  21.9667 |1439.9500|
+|  0.0167  |  6.8333  |  12.1167   |  19.6732  |  21.9667  |1439.9500  |
+
+#### Compare ride length between members and casual riders
+ |        |casual riders    |  member riders |
+ |--------|-----------------|----------------|
+ | mean |    27.06813    |  13.52313      | 
+|  median |   16.083333    |  9.716667      |
+|max |     1439.917|  1439.950     |
+|min |  0.01666667   |  0.01666667     |
+
+#### 3. By Day
+
+ |   |  member_casual |day_of_week| number_of_rides | ride_length (mean)|ride_length (median) | 
+ |--|-----------------|-----------|-----------------|-------------------|---------------------|
+|1         |        casual       |           Mon |             281758 |        27.38158|    16.050000|
+|2         |        member       |           Mon |          407531    |        13.10407|    9.283333|
+|3         |        casual       |           Tue |           271778   |        24.59807|    14.350000|
+|4         |        member       |           Tue |           460421   |        12.67700|    9.200000|
+|5         |        casual       |           Wed |            272511  |        23.50355|   14.083333|
+|6         |        member       |           Wed |           460675   |        12.81499|    9.350000|
+|7         |        casual       |           Thu |          277807    |        23.41320|   13.916667|
+|8         |        member       |           Thu |          433003    |        12.71747|    9.250000|
+|9         |        casual       |           Fri |         354074     |        25.16734|   15.083333|
+|10        |        member       |           Fri |         429231     |        13.22950|    9.566667|
+|11        |        casual       |           Sat |         550635     |        29.36842|   17.900000|
+|12        |        member       |           Sat |          425358    |        15.07618|   10.916667|
+|13        |       casual        |           Sun |           476933   |        31.21159|   18.800000|
+|14        |       member        |          Sun  |          372395   |         15.40517|   10.966667|
+
+
+ 
+
+
+
