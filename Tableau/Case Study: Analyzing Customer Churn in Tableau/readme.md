@@ -34,3 +34,5 @@ Key characteristics
 - One big table containing 29 columns
 - One row per customer 
 - Snapshot of the database at a specic moment in time
+
+#### [Metadata](https://assets.datacamp.com/production/repositories/5952/datasets/060f0299a782a1bdb3fd21a801a58b03190c4163/Metadata%20-%20Case%20study_%20Analyzing%20customer%20churn%20in%20Tableau.pdf)
