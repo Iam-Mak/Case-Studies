@@ -1,4 +1,4 @@
-# Case Study: How Does a Bike-Share Navigate Speedy Success?
+# [Case Study: How Does a Bike-Share Navigate Speedy Success?](https://coursera.org/share/15f5b45b498b937f6db43d8c6a73293d)
 
 ### Cyclistic
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that
@@ -29,7 +29,7 @@ These questions will guide the future marketing program:
 - 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ### Prepare 
-**Data Source:** Previous 12 months (from 12/2020 to 11/2021) of Cyclistic trip data downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+**Data Source:** Previous 12 months (from 01/2021 to 12/2021) of Cyclistic trip data downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
 - 12 csv. Files
 - 13 variables
 
@@ -37,8 +37,8 @@ These questions will guide the future marketing program:
 Check current data frames first to see what transformations need to be done before combining.<br>
 Cleaning and preparing for Analysis
 - Remove all latitude and longitude 
-- Calculate the "ride_length" and add a new column (covert ride length data type to numeric) <br>  `total rows = 5479096 & total column = 10`  <br> `total casual riders = 2489347 & total member riders = 2989749`
-- Remove trips that the ride length is <= 0 or more than one day (4986 rows removed) <br> `cleaned total rows = 5474110 ` 
+- Calculate the "ride_length" and add a new column (covert ride length data type to numeric) <br>  `total rows = 5595063 & total column = 10`  <br> `total casual riders = 2529005 & total member riders = 3066058`
+- Remove trips that the ride length is <= 0 or more than one day (4669 rows removed) <br> `cleaned total rows = 5590394 ` 
 - Add columns that list the month, day day of week and year of each ride.
 
 ### Analyze
@@ -47,57 +47,57 @@ Cleaning and preparing for Analysis
 #### top 10 popular stations
 |  S no.       |stations   | station_count|
 |--------|----------|---------|
-| 1 |Streeter Dr & Grand Ave  |  163969|
-| 2| Michigan Ave & Oak St     |   88698|
-| 3 |Wells St & Concord Ln      |  86307|
-| 4 |Millennium Park           |   83629|
-| 5 |Clark St & Elm St         |  81013|
-| 6| Wells St & Elm St         |  74092|
-| 7 |Theater on the Lake       | 73946|
-| 8 |Clark St & Lincoln Ave    |   66105|
-| 9 |Wabash Ave & Grand Ave    |  65024|
-|10 |Clark St & Armitage Ave      | 64756|
+| 1 |Streeter Dr & Grand Ave  |  165976|
+| 2| Michigan Ave & Oak St     |   89146|
+| 3 |Wells St & Concord Ln      |  87436|
+| 4 |Millennium Park           |   85042|
+| 5 |Clark St & Elm St         |  81703
+| 6| Wells St & Elm St         |  75012|
+| 7 |Theater on the Lake       | 73857
+| 8 |Clark St & Lincoln Ave    |   66659|
+| 9 |Wabash Ave & Grand Ave    |  66517
+|10 |Clark St & Armitage Ave      | 65860|
 
 
 #### top 10 popular stations for casual riders 
 |  S no.       |stations   | station_count|
 |--------|----------|---------|
-|1| Streeter Dr & Grand Ave |          133317|
-| 2 |Millennium Park      |              67090|
- |3| Michigan Ave & Oak St |             60651|
- |4| Theater on the Lake   |             44065|
-| 5 |Shedd Aquarium      |               43628|
-| 6 |Wells St & Concord Ln  |            39067|
-| 7 |Lake Shore Dr & Monroe St|          38712|
-| 8 |Clark St & Lincoln Ave    |         34024|
- |9| Wabash Ave & Grand Ave    |         32816|
-|10| Indiana Ave & Roosevelt Rd  |       32792|
+|1| Streeter Dr & Grand Ave |          134922|
+| 2 |Millennium Park      |              68049|
+ |3| Michigan Ave & Oak St |             60941|
+ |4| Shedd Aquarium   |                  44778|
+| 5 |  Theater on the Lake    |          44086|
+| 6 |Wells St & Concord Ln  |            39332|
+| 7 |Lake Shore Dr & Monroe St|          37844|
+| 8 |Clark St & Lincoln Ave    |         34198|
+ |9| Wabash Ave & Grand Ave    |         33213|
+|10| Indiana Ave & Roosevelt Rd  |       32962|
 
 
 #### top 10 popular stations for member riders
 |  S no.       |stations   | station_count|
 |--------|----------|---------|
-|1 |Clark St & Elm St  |              49146|
- |2| Wells St & Concord Ln   |         47240|
-|3 |Kingsbury St & Kinzie St  |       45718|
-| 4| Wells St & Elm St     |           41926|
-| 5 |Dearborn St & Erie St  |          39551|
- |6| Wells St & Huron St    |          37287|
- |7 |St. Clair St & Erie St   |        37039|
-| 8| Broadway & Barry Ave     |        36059|
- |9| Clinton St & Madison St |         33273|
-|10| Clark St & Armitage Ave  |        32785|
+|1 |Clark St & Elm St  |               49645|
+ |2| Wells St & Concord Ln   |         48104|
+|3 |Kingsbury St & Kinzie St  |        47203|
+| 4| Wells St & Elm St     |           42658|
+| 5 |Dearborn St & Erie St  |          39886|
+ |6| Wells St & Huron St    |          38012|
+ |7 |St. Clair St & Erie St   |        37763|
+| 8| Broadway & Barry Ave     |        36290|
+ |9| Clinton St & Madison St |         34265|
+|10| Clark St & Armitage Ave  |        33018|
 
 #### 2. Descriptive Analysis on Ride Length (in minutes)
 | Min.     |  1st Qu.|    Median  |    Mean |  3rd Qu.  |    Max. |
 |----------|---------|------------|---------|-----------|---------|
-|  0.0167  |  6.8333  |  12.1167   |  19.6732  |  21.9667  |1439.9500  |
+|  0.0167  |  6.7500 |  11.9833   |  19.4851  |  21.7500  |1439.9500  |
 
 #### Compare ride length between members and casual riders
  |        |casual riders    |  member riders |
  |--------|-----------------|----------------|
- | mean |    27.06813    |  13.52313      | 
-|  median |   16.083333    |  9.716667      |
+ | mean |    26.87448   |  13.39778          | 
+|  median |   15.95    |  9.60      |
 |max |     1439.917|  1439.950     |
 |min |  0.01666667   |  0.01666667     |
 
@@ -105,23 +105,50 @@ Cleaning and preparing for Analysis
 
  |   |  member_casual |day_of_week| number_of_rides | ride_length (mean)|ride_length (median) | 
  |--|-----------------|-----------|-----------------|-------------------|---------------------|
-|1         |        casual       |           Mon |             281758 |        27.38158|    16.050000|
-|2         |        member       |           Mon |          407531    |        13.10407|    9.283333|
-|3         |        casual       |           Tue |           271778   |        24.59807|    14.350000|
-|4         |        member       |           Tue |           460421   |        12.67700|    9.200000|
-|5         |        casual       |           Wed |            272511  |        23.50355|   14.083333|
-|6         |        member       |           Wed |           460675   |        12.81499|    9.350000|
-|7         |        casual       |           Thu |          277807    |        23.41320|   13.916667|
-|8         |        member       |           Thu |          433003    |        12.71747|    9.250000|
-|9         |        casual       |           Fri |         354074     |        25.16734|   15.083333|
-|10        |        member       |           Fri |         429231     |        13.22950|    9.566667|
-|11        |        casual       |           Sat |         550635     |        29.36842|   17.900000|
-|12        |        member       |           Sat |          425358    |        15.07618|   10.916667|
-|13        |       casual        |           Sun |           476933   |        31.21159|   18.800000|
-|14        |       member        |          Sun  |          372395   |         15.40517|   10.966667|
+|1         |        casual       |           Mon |          285928    |        27.23302|    15.933333|
+|2         |        member       |           Mon |          416112    |        13.00232|    9.200000 |
+|3         |        casual       |           Tue |           274033   |        24.49926|    14.266667|
+|4         |        member       |           Tue |           465417   |        12.60718|    9.133333 |
+|5         |        casual       |           Wed |            278582  |        23.28661|   13.950000|
+|6         |        member       |           Wed |           477066   |        12.66144|     9.216667|
+|7         |        casual       |           Thu |          285667    |        23.16266|   13.766667|
+|8         |        member       |           Thu |          451425    |        12.56334|    9.133333|
+|9         |        casual       |           Fri |         363542     |        24.94070|   14.950000|
+|10        |        member       |           Fri |         446315     |        13.09665|    9.433333|
+|11        |        casual       |           Sat |         557135     |        29.20509|   17.783333|
+|12        |        member       |           Sat |          432928    |        14.97082|   10.816667|
+|13        |       casual        |           Sun |           480250   |        31.06556|   18.683333|
+|14        |       member        |          Sun  |          375994   |         15.29637|   10.866667|
 
+#### 4. By month
 
- 
+ |   |  member_casual |month| number_of_rides | ride_length (mean)|ride_length (median) | 
+ |--|-----------------|-----------|-----------------|-------------------|---------------------|
+|1         |        casual       |           Jan |          18090    |        21.38846|    12.266667|
+|2         |        member       |           Jan |          78701    |        12.68486|    8.700000 |
+|3         |        casual       |           Feb |           10072   |        30.33581|    16.033333|
+|4         |        member       |           Feb |           39429  |        15.80857|    10.116667 |
+|5         |        casual       |           Mar |            83876  |        31.42597|   18.683333|
+|6         |        member       |           Mar |           144446   |        13.86716|     9.983333|
+|7         |        casual       |           Apr |          136359   |        31.10665|   18.000000|
+|8         |        member       |           Apr |          200578    |        14.51371|    10.400000|
+|9         |        casual       |           May |         256480    |        31.63273|  18.716667|
+|10        |        member       |           May |         274657     |        14.45722|   10.483333|
+|11        |        casual       |           Jun |          370035    |        29.36513|   17.333333|
+|12        |       member        |           Jun |           358829   |        14.41389|   10.616667|
+|13        |       casual        |           Jul |           441446   |        27.51916|   16.683333|
+|14        |       member        |           Jul |          380271  |         14.06131|   10.433333|
+|15        |        casual       |           Aug |          412154    |        26.33230|    16.083333|
+|16        |        member       |           Aug |          391576    |        13.87134|    10.150000 |
+|17        |        casual       |           Sep |           363482   |        25.24353|    15.350000|
+|18        |        member       |           Sep |           392143   |        13.52070|    9.783333 |
+|19        |        casual       |           Oct |            256814  |        22.85920|   13.700000|
+|20        |        member       |           Oct |           373887  |        12.24078|     8.650000|
+|21        |        casual       |           Nov |          106735   |        18.72995|   11.233333|
+|22        |        member       |           Nov |          252972    |        11.09886|    7.666667|
+|23        |        casual       |           Dec |         69594    |        18.19083|   10.933333|
+|24        |        member       |           Dec |         177768     |        10.82142|    7.616667|
+
 
 
 
