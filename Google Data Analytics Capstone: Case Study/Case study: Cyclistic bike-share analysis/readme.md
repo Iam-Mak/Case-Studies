@@ -150,5 +150,53 @@ Cleaning and preparing for Analysis
 |24        |        member       |           Dec |         177768     |        10.82142|    7.616667|
 
 
+### Share 
+#### Creating Data Visualizations
+
+#### 1. Top 10 stations (casual riders)
+
+![image](https://user-images.githubusercontent.com/92245436/148542472-45e6671b-5187-4b29-834d-59a042675e4f.png)
+
+
+#### 2. Top 10 stations (members)
+
+
+![image](https://user-images.githubusercontent.com/92245436/148542174-a6fba308-20a9-4e7c-9acf-bab454ed8a34.png)
+
+#### 3. Top 10 start stations (casual riders)
+
+![image](https://user-images.githubusercontent.com/92245436/148542751-7fa9df16-04cd-468d-95d2-843d5b459698.png)
+
+
+#### 4. Average riding duration between members and casual riders
+
+
+![image](https://user-images.githubusercontent.com/92245436/148539225-ed358d8b-5d31-4766-9af8-6b8b6f20f7da.png)
+
+#### 5. Average riding duration of each day of week between members and casual riders
+
+![image](https://user-images.githubusercontent.com/92245436/148540228-cd0045eb-bc1a-4142-b6af-d4a42d52ee8f.png)
+
+#### 6. Average number of rides of each day of week between members and casual riders
+![image](https://user-images.githubusercontent.com/92245436/148540433-3af80410-9b30-401c-8484-00bb7f0de801.png)
+
+#### 7. Average number of rides by month (casual riders)
+![image](https://user-images.githubusercontent.com/92245436/148541153-8a9f916f-5111-458e-88c6-27db394e1968.png)
+
+#### 8. Average number of rides by hour (casual riders)
+![image](https://user-images.githubusercontent.com/92245436/148541718-e61b88d7-9651-4aa0-bd10-eb72abe17e2d.png)
+
+
+#### 9. Number of rides between members and casual riders by day of week across the year
+
+
+![image](https://user-images.githubusercontent.com/92245436/148543151-ce25e300-553d-4e6e-b233-8c718457f309.png)
+
+
+### Key Findings
+- On summer weekends, casual riders' demand on bikes are larger than members.
+- During the day, averagely, **12 PM to 7 PM** is the peak time when number of rides of casual riders are greater than 150K.
+- Top three start stations for casual riders are **1) Streeter Dr & Grand Ave**, **2) Millennium Park** **3) Michigan Ave & Oak St**
+
 
 
