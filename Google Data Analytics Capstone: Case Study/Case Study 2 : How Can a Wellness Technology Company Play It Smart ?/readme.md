@@ -61,6 +61,7 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 
 #### weight_log
 - In `weight_log` we have total 8 different columns and 67 entries and 8 unique users.
+- delete the columns LogId and Fat as they do not hve any relevant information.
 
 #### hourly_calories
 - In `hourly_calories` we have total 3 different columns and 22099 entries and 33 unique users.
@@ -69,4 +70,8 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 #### sleep_day
 - In `sleep_day` we have total 5 different columns and 413 entries and 24 unique users.
 - sleep_day dataframe doesn't contain any null values (missing values)
+
+### Analyze
+
+
 
