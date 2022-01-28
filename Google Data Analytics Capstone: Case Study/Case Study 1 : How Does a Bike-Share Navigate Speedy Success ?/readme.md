@@ -33,6 +33,16 @@ These questions will guide the future marketing program:
 - 12 csv. Files
 - 13 variables
 
+#### 2.2 Is Data ROCCC?
+A good data source is **ROCCC** which stands for **Reliable, Original, Comprehensive, Current,** and **Cited**.
+
+- **Reliable -** *High* 
+- **Original -** *High* 
+- **Comprehensive** - *High* 
+- **Current** - *High* 
+- **Cited** - *High*
+
+
 ### Process 
 Check current data frames first to see what transformations need to be done before combining.<br>
 Cleaning and preparing for Analysis
