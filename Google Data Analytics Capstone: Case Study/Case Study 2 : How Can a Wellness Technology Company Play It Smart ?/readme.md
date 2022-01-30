@@ -125,3 +125,8 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 - minimum sleep time is 58 min it seems odd
 
 ![image](https://user-images.githubusercontent.com/92245436/151699343-87cca4e4-f6c1-45a5-a1bf-6ea35bef468c.png)
+
+## Recommendations
+- We can focus on people with health problems such as (diabetes, high blood pressure) and help them to monitor their health with smart gadgets.
+- We can also involve our company with athletes' intelligence and help them to analyze their overall performance.
+- we can increase user's engagement by motivating them to participate in competitions or by goal - setting activities and we can also help them by sneding reminders on the phone.
