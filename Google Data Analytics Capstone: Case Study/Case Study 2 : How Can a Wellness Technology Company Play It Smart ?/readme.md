@@ -4,6 +4,9 @@
 Bellabeat is a high-tech company that manufactures health-focused smart products. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits.Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.
 By 2016, Bellabeat had opened offices around the world and launched multiple products. Bellabeat products became available through a growing number of online retailers in addition to their own e-commerce channel on their website.
 
+![image](https://user-images.githubusercontent.com/92245436/151696011-d42cb5be-30f1-4ba4-b5b6-a1ce63d5f8a3.png)
+
+
 ### Products
 - **Bellabeat app:** The Bellabeat app provides users with health data related to their activity, sleep, stress,
 menstrual cycle, and mindfulness habits.
@@ -55,9 +58,9 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 #### daily_activity
 - In `daily_activity` we have total 15 different columns and 940 entries and 33 unique users.
 - daily_activity dataframe doesn't contain any null values (missing values)
-- Remove rows  that the `TotalSteps` is <= 100 (87 rows removed) or  it would distort the daily averages.
-- `TotalDistance` and `TrackerDistance`are almost identical (838 rows are equal)
-- Add columns that list day of week and total_hours of each user.
+- Remove rows  that the `total_steps` is <= 100 (87 rows removed) or  it would distort the daily averages.
+- `total_distance` and `track_distance`are almost identical (838 rows are equal)
+- Add columns that contains `day of the week` , `day of the week number` and `total_hours` of each user.
 
 #### weight_log
 - In `weight_log` we have total 8 different columns and 67 entries and 8 unique users.
@@ -66,12 +69,59 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 #### hourly_calories
 - In `hourly_calories` we have total 3 different columns and 22099 entries and 33 unique users.
 - hourly_calories dataframe doesn't contain any null values (missing values)
+- Add columns that contains `day of the week`  and `day of the week number` ` of each user.
 
 #### sleep_day
 - In `sleep_day` we have total 5 different columns and 413 entries and 24 unique users.
 - sleep_day dataframe doesn't contain any null values (missing values)
 
 ### Analyze
+#### daily_activity
+![image](https://user-images.githubusercontent.com/92245436/151696964-920483f6-4f6e-46d7-863d-9fea684da767.png)
+
+**Observations**
+- minimum steps taken = **108** and max steps taken by user = **36019**
+- minimum calories = **52** and maximum calories = **4900**
+- max total_hours is 24 hrs extreme scenario or may be due to multiple users.
+
+![image](https://user-images.githubusercontent.com/92245436/151697283-0c214deb-bf97-4866-9df8-f5b83acf9d38.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151697311-5e062cc8-ab59-4e10-8df6-8940b81cdae2.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151697349-c818d0f7-c4ce-4c3a-a5c7-b6007486c8ad.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151697695-b5279b0a-3b1c-442d-9e12-5c93c42058fe.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151697760-ac3162a4-e0d8-4ae3-bdac-cc4b190974a3.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151697820-cf2697f7-2557-4fd1-a524-6521de59279f.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151697867-2b5ca6d3-e922-4975-8a0f-87c67bb6dbc3.png)
+
+![image](https://user-images.githubusercontent.com/92245436/151699738-c5bfac91-8dbe-47d9-8c1f-fbadb3382b6a.png)
 
 
 
+#### hourly_calories
+
+![image](https://user-images.githubusercontent.com/92245436/151697918-8cfb1900-5fcc-436b-9cba-4d1afa38a9c5.png)
+
+
+#### weight_log
+![image](https://user-images.githubusercontent.com/92245436/151697060-04187f3b-43b0-4d2a-8102-4d913bb0d759.png)
+
+**Observations**
+- minimum bmi is 21.45 which is in normal range.
+- maximum bmi is 47.54 which is in obese (class III) we have look further.
+
+![image](https://user-images.githubusercontent.com/92245436/151697986-7eae2bc7-6423-44cf-b060-575a25fd4339.png)
+
+- person with id 1927972279 has weight 133.5 kg and 47.54 which fall under the category of Obese (Class 3).
+#### sleep_day
+
+![image](https://user-images.githubusercontent.com/92245436/151697205-b8a822a9-23ad-4caf-9248-01f29523ebdb.png)
+**Observations**
+- maximum sleep is 796 min that is 13.26 hrs
+- minimum sleep time is 58 min it seems odd
+
+![image](https://user-images.githubusercontent.com/92245436/151699343-87cca4e4-f6c1-45a5-a1bf-6ea35bef468c.png)
