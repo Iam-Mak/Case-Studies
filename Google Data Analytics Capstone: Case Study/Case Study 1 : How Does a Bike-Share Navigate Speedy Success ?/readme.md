@@ -208,5 +208,7 @@ Cleaning and preparing for Analysis
 - During the day, averagely, **12 PM to 7 PM** is the peak time when number of rides of casual riders are greater than 150K.
 - Top three start stations for casual riders are **1) Streeter Dr & Grand Ave**, **2) Millennium Park** **3) Michigan Ave & Oak St**
 
-
-
+## Recommendations
+- We can introduce Weekend Pass for casual riders as we have more casual riders on weekend.
+- We can introduce Pass with Limited no. of rides a riders can take in a month or a Year.
+- We can introduce Premium Pass service for Bike reservation during peek Biking seasons.
