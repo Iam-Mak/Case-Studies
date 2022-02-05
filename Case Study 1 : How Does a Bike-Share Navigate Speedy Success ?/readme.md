@@ -8,6 +8,9 @@ disabilities and riders who can’t use a standard two-wheeled bike. The majorit
 **8%** of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about **30%** use them to
 commute to work each day. <br>
 
+![image](https://user-images.githubusercontent.com/92245436/152645111-c81132a4-0f28-499a-8458-6db775d97267.png)
+
+
 **Cyclistic’s** has three types of pricing plans: **single-ride passes, full-day passes,
 and annual memberships**.Customers who purchase *single-ride* or f*ull-day passes* are referred to as **casual riders**. Customers
 who purchase *annual memberships* are **Cyclistic members**.
@@ -36,11 +39,11 @@ These questions will guide the future marketing program:
 #### 2.2 Is Data ROCCC?
 A good data source is **ROCCC** which stands for **Reliable, Original, Comprehensive, Current,** and **Cited**.
 
-- **Reliable -** *High* 
-- **Original -** *High* 
-- **Comprehensive** - *High* 
-- **Current** - *High* 
-- **Cited** - *High*
+- **Reliable -** *High* - Reliable as it  has 5590394 rows and many riders
+- **Original -** *High* - Dta is Original
+- **Comprehensive** - *High* - We have all needed parameters 
+- **Current** - *High* - Data is up to date
+- **Cited** - *High* - Source is verified
 
 
 ### Process 
@@ -204,11 +207,16 @@ Cleaning and preparing for Analysis
 
 
 ### Key Findings
-- On summer weekends, casual riders' demand on bikes are larger than members.
+- On weekends, casual riders' demand on bikes are larger than members.
+- Casual riders prefer to take longer trips averaging 26 minutes per trip compared to members who average only 13 minutes.
+- Average trip duration of casual riders is more than twice that of member rider over any given day of the week cumulatively.
 - During the day, averagely, **12 PM to 7 PM** is the peak time when number of rides of casual riders are greater than 150K.
+- Casual riders prefer to take longer trips averaging 26 minutes per trip compared to members who average only 13 minutes.
 - Top three start stations for casual riders are **1) Streeter Dr & Grand Ave**, **2) Millennium Park** **3) Michigan Ave & Oak St**
 
 ## Recommendations
+- Saturday is effective in case of casual riders whereas it is the most effective day for marketing and we can bring some discount or promotion package.
+- In July there is a peak in numbers of rides so promotion and packages for membership is recommended at that time.
 - We can introduce Weekend Pass for casual riders as we have more casual riders on weekend.
-- We can introduce Pass with Limited no. of rides a riders can take in a month or a Year.
+- Offer discounted pricing during non-busy hours so that casual riders might choose to use bikes more often and level out demand over the day.
 - We can introduce Premium Pass service for Bike reservation during peek Biking seasons.
