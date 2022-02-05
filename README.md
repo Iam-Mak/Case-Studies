@@ -10,10 +10,21 @@ By 2016, Bellabeat had opened offices around the world and launched multiple pro
 ### Goal: Analyze smart device usage data in order to gain insight into how people are already using their smart devices.
 Using this information, give high-level recommendations for how these trends can inform Bellabeat marketing strategy.
  
-## Recommendations
-- We can focus on people with health problems such as (diabetes, high blood pressure) and help them to monitor their health with smart gadgets.
-- We can also involve our company with athletes' intelligence and help them to analyze their overall performance.
-- we can increase user's engagement by motivating them to participate in competitions or by goal - setting activities and we can also help them by sneding reminders on the phone.
+### Key insights
+- The majority of users do not take enough steps to be considered active
+- Invest in additional data capture techniques as current datasets provide a small sample size and do not include any demographic details
+- The Sedentary minutes is around 983.5 which is fairly high compare to others.
+- Users are most active between 12pm and 2pm (lunchtime) and from 5pm till 7pm (after work) on weekdays.
+- People are more likely to spend their time in bed rather than they fell asleep.
+
+
+### Recommendations
+- Bellabeat can focus on people with health problems such as (diabetes, high blood pressure) and help them to monitor their health with smart gadgets.
+- Bellabeat can also involve our company with athletes' intelligence and help them to analyze their overall performance.
+- Bellabeat can increase user's engagement by motivating them to participate in competitions or by goal - setting activities and we can also help them by sneding reminders on the phone.
+- Create wellness guides within the app to inform strategies for workout and give exercise recommendations based on lifestyle.
+- Bellabeat can implement some step goal rewards for the people who achieved more steps thoughtout the week.
+
  
  
 ## 1. [Case Study 1 : How Does a Bike-Share Navigate Speedy Success?](https://github.com/Iam-Mak/Google-Data-Analytics-Case-Studies/tree/main/Case%20Study%201%20:%20How%20Does%20a%20Bike-Share%20Navigate%20Speedy%20Success%20%3F)
@@ -42,13 +53,17 @@ casual riders would buy a membership, and how digital media could affect their m
  
  
 ### Key Findings
-- On summer weekends, casual riders' demand on bikes are larger than members.
+- On weekends, casual riders' demand on bikes are larger than members.
+- Casual riders prefer to take longer trips averaging 26 minutes per trip compared to members who average only 13 minutes.
+- Average trip duration of casual riders is more than twice that of member rider over any given day of the week cumulatively.
 - During the day, averagely, **12 PM to 7 PM** is the peak time when number of rides of casual riders are greater than 150K.
 - Top three start stations for casual riders are **1) Streeter Dr & Grand Ave**, **2) Millennium Park** **3) Michigan Ave & Oak St**
- 
+
 ## Recommendations
+- Saturday is effective in case of casual riders whereas it is the most effective day for marketing and we can bring some discount or promotion package.
+- In July there is a peak in numbers of rides so promotion and packages for membership is recommended at that time.
 - We can introduce Weekend Pass for casual riders as we have more casual riders on weekend.
-- We can introduce Pass with Limited no. of rides a riders can take in a month or a Year.
+- Offer discounted pricing during non-busy hours so that casual riders might choose to use bikes more often and level out demand over the day.
 - We can introduce Premium Pass service for Bike reservation during peek Biking seasons.
  
  
