@@ -25,13 +25,13 @@ We wants to understand how casual riders and annual members use Cyclistic bikes 
 In order to do that, however, we need to better understand how annual members and casual riders differ, why
 casual riders would buy a membership, and how digital media could affect their marketing tactics.
 
-### Ask 
+## 1. Ask 
 These questions will guide the future marketing program:
 - 1. How do annual members and casual riders use Cyclistic bikes differently?
 - 2. Why would casual riders buy Cyclistic annual memberships?
 - 3. How can Cyclistic use digital media to influence casual riders to become members?
 
-### Prepare 
+## 2. Prepare 
 **Data Source:** Previous 12 months (from 01/2021 to 12/2021) of Cyclistic trip data downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
 - 12 csv. Files
 - 13 variables
@@ -46,7 +46,7 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 - **Cited** - *High* - Source is verified
 
 
-### Process 
+## 3. Process 
 Check current data frames first to see what transformations need to be done before combining.<br>
 Cleaning and preparing for Analysis
 - Remove all latitude and longitude 
@@ -54,7 +54,7 @@ Cleaning and preparing for Analysis
 - Remove trips that the ride length is <= 0 or more than one day (4669 rows removed) <br> `cleaned total rows = 5590394 ` 
 - Add columns that list the month, day day of week and year of each ride.
 
-### Analyze
+## 4. Analyze
 
 #### 1. Stations 
 #### top 10 popular stations
@@ -163,7 +163,7 @@ Cleaning and preparing for Analysis
 |24        |        member       |           Dec |         177768     |        10.82142|    7.616667|
 
 
-### Share 
+## 5. Share 
 #### Creating Data Visualizations
 
 #### 1. Top 10 stations (casual riders)
@@ -213,7 +213,8 @@ Cleaning and preparing for Analysis
 - During the day, averagely, **12 PM to 7 PM** is the peak time when number of rides of casual riders are greater than 150K.
 - Top three start stations for casual riders are **1) Streeter Dr & Grand Ave**, **2) Millennium Park** **3) Michigan Ave & Oak St**
 
-## Recommendations
+## 6. Act
+### 6.1 Recommendations
 - Saturday is effective in case of casual riders whereas it is the most effective day for marketing and we can bring some discount or promotion package.
 - In July there is a peak in numbers of rides so promotion and packages for membership is recommended at that time.
 - We can introduce Weekend Pass for casual riders as we have more casual riders on weekend.
