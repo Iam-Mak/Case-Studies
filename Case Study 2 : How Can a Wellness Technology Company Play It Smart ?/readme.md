@@ -4,7 +4,7 @@
 Bellabeat is a high-tech company that manufactures health-focused smart products. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits.Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.
 By 2016, Bellabeat had opened offices around the world and launched multiple products. Bellabeat products became available through a growing number of online retailers in addition to their own e-commerce channel on their website.
 
-![image](https://user-images.githubusercontent.com/92245436/151696011-d42cb5be-30f1-4ba4-b5b6-a1ce63d5f8a3.png)
+![image](https://user-images.githubusercontent.com/92245436/152644691-7a14db0b-d487-4f72-a8aa-d1f83268d739.png)
 
 
 ### Products
@@ -141,6 +141,9 @@ The following are preliminary recommendations developed as a guide on how many d
 ### 5.1 Key insights
 - The majority of users do not take enough steps to be considered active
 - Invest in additional data capture techniques as current datasets provide a small sample size and do not include any demographic details
+- The Sedentary minutes is around 983.5 which is fairly high compare to others.
+- Users are most active between 12pm and 2pm (lunchtime) and from 5pm till 7pm (after work) on weekdays.
+- People are more likely to spend their time in bed rather than they fell asleep.
 
 
 ## 6. Act
