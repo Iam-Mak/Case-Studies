@@ -211,7 +211,6 @@ Cleaning and preparing for Analysis
 - Casual riders prefer to take longer trips averaging 26 minutes per trip compared to members who average only 13 minutes.
 - Average trip duration of casual riders is more than twice that of member rider over any given day of the week cumulatively.
 - During the day, averagely, **12 PM to 7 PM** is the peak time when number of rides of casual riders are greater than 150K.
-- Casual riders prefer to take longer trips averaging 26 minutes per trip compared to members who average only 13 minutes.
 - Top three start stations for casual riders are **1) Streeter Dr & Grand Ave**, **2) Millennium Park** **3) Michigan Ave & Oak St**
 
 ## Recommendations
