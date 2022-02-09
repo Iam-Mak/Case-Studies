@@ -50,7 +50,7 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 - **Cited** - *LOW* - Data collected from third party, hence unknown
 
 ## 3. Process
-#### 3.1 Selected Data
+### 3.1 Selected Data
 - daily_activity 
 - hourly_calories
 - sleep_day
@@ -147,7 +147,7 @@ The following are preliminary recommendations developed as a guide on how many d
 
 
 ## 6. Act
-### 6. Recommendations
+### 6.1 Recommendations
 - Bellabeat can focus on people with health problems such as (diabetes, high blood pressure) and help them to monitor their health with smart gadgets.
 - Bellabeat can also involve our company with athletes' intelligence and help them to analyze their overall performance.
 - Bellabeat can increase user's engagement by motivating them to participate in competitions or by goal - setting activities and we can also help them by sneding reminders on the phone.
