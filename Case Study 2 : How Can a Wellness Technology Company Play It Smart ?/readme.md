@@ -19,6 +19,9 @@ to the Bellabeat app to track activity, sleep, and stress.
 
 ### Goal: Analyze smart device data to gain insight into how consumers are using their smart devices in order to present high-level recommendations for Bellabeat’s marketing strategy.
 
+#### Check My 
+- [Kaggle notebook](https://www.kaggle.com/amil09/bellabeat-case-study-in-python)
+- [Jupyter notebook](https://github.com/Iam-Mak/Data-Analytics-Projects/blob/main/Case%20Study%202%20:%20How%20Can%20a%20Wellness%20Technology%20Company%20Play%20It%20Smart%20%3F/Case%20Study%202%20%20How%20Can%20a%20Wellness%20Technology%20Company%20Play%20It%20Smart%20%20.ipynb)
 ## 1. Ask
 Analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. 
 - 1. What are some trends in smart device usage?
