@@ -31,7 +31,7 @@ These particles range from larger respiratory droplets to smaller aerosols.
    if you feel unwell. <br>
 Source : [WHO](https://www.who.int/health-topics/coronavirus#tab=tab_1)
 
-### Objective : Exploration of Covid 19 casses
+### Objective : Exploration of Covid 19 cases
 
 ## 1. Ask 
 - What percentage of population infected with Covid
