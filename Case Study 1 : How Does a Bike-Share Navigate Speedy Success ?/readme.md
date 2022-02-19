@@ -40,7 +40,7 @@ These questions will guide the future marketing program:
 A good data source is **ROCCC** which stands for **Reliable, Original, Comprehensive, Current,** and **Cited**.
 
 - **Reliable -** *High* - Reliable as it  has 5590394 rows and many riders
-- **Original -** *High* - Dta is Original
+- **Original -** *High* - Data is Original
 - **Comprehensive** - *High* - We have all needed parameters 
 - **Current** - *High* - Data is up to date
 - **Cited** - *High* - Source is verified
