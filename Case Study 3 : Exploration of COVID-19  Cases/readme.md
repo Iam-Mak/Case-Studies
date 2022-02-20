@@ -31,24 +31,21 @@ These particles range from larger respiratory droplets to smaller aerosols.
    if you feel unwell. <br>
 Source : [WHO](https://www.who.int/health-topics/coronavirus#tab=tab_1)
 
-### Objective : Exploration of Covid 19 cases
+### Objective : Exploration of Covid 19 cases in BigQuery and Google Data Studio 
 
-## 1. Ask 
+##  Ask 
 - What percentage of population infected with Covid
 - Countries with Highest Infection Rate compared to Population
 - Countries with Highest Death Count per Population
 - Percentage of Population that has recieved at least one Covid Vaccine
 
-## 2. Prepare 
+##  Prepare 
 Data is taken from [COVID-19 Data Repository](https://ourworldindata.org/covid-deaths)  by the Center for Systems Science and Engineering 
 (CSSE) at Johns Hopkins University.
 Data is collected between  01/01/2020 and    17/02/2022
 
 
-
-
-
- 2.2 Is Data ROCCC?
+#### Is Data ROCCC?
 A good data source is **ROCCC** which stands for **Reliable, Original, Comprehensive, Current,** and **Cited**.
 
 - **Reliable -** *High* - Data is reliable 
@@ -62,3 +59,14 @@ A good data source is **ROCCC** which stands for **Reliable, Original, Comprehen
 global_covid_19 Database is created in BigQuery with two tables :
 - covid_cases (16207 rows and 26 columns)
 - covid_vaccination (16207 rows and 45 columns)
+
+
+## Share  
+
+- Graph 1 has normal x - axis and Graph 2 has logarithmic scale .
+- Logarithmic scales are useful when the data you are displaying is much less or much more than the rest of the data.
+- In normal bar graph it seems Oceania has zero cases, so in order to visualise logarithmic scale used.
+
+
+<img src="images/continet_cases.jpg" width="800" title="normal axis"> 
+<img src="images/continet_cases_log_scale.jpg" width="800" title="log axis ">
