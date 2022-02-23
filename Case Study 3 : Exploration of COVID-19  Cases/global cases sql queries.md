@@ -25,6 +25,8 @@ SELECT
   MAX(total_cases) AS highest_infection_count,
 FROM
   `covid-19-341809.global_covid_19.covid_cases`
+WHERE
+  continent IS NOT NULL
 GROUP BY
   Location,
   Population
@@ -91,3 +93,27 @@ LIMIT
   5
 ```
 ![image](https://user-images.githubusercontent.com/92245436/154840666-eb1ad418-a84f-473f-977c-a8d0b3ccbe75.png)
+
+### Infection fatality ratio
+![image](https://user-images.githubusercontent.com/92245436/155381411-b0ac3aa7-8c83-4ce3-86b7-9a2f8c0e0d8f.png)
+
+```
+SELECT
+  date,
+  SUM(new_cases) AS total_cases,
+  SUM(CAST(new_deaths AS int)) AS total_deaths,
+  SUM(CAST(new_deaths AS int))/SUM(New_Cases)*100 AS death_percentage
+FROM
+  `covid-19-341809.global_covid_19.covid_cases`
+WHERE
+  continent IS NOT NULL
+GROUP BY
+  date
+HAVING
+  death_percentage IS NOT NULL
+ORDER BY
+  1,
+  2
+```
+![image](https://user-images.githubusercontent.com/92245436/155293997-288cd4a7-7866-4397-9832-7a1c76c74bcf.png)
+
