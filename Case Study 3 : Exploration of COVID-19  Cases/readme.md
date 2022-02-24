@@ -77,3 +77,9 @@ global_covid_19 Database is created in BigQuery with two tables :
 
 ### Infection fatality ratio
 <img src="images/fatality_rate.jpg" width="1200" title=" fatality_rate ">
+
+## Findings
+- United States has the highest infection rate followed by India.
+- Faroe Islands has the highest frequency of COVID-19 in Europe with 62.32 % of infected population.
+- Europe is the most affected continent followed by North America.
+- United States, India and Brazil have the highest total death count.
