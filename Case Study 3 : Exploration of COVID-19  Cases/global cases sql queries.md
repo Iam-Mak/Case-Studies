@@ -117,3 +117,26 @@ ORDER BY
 ```
 ![image](https://user-images.githubusercontent.com/92245436/155293997-288cd4a7-7866-4397-9832-7a1c76c74bcf.png)
 
+### Start date for covid vaccine 
+```
+SELECT
+  dea.location,
+  dea.date,
+  dea.population,
+  vac.new_vaccinations,
+  SUM(new_vaccinations) OVER (PARTITION BY dea.Location ORDER BY dea.location, dea.Date) AS rolling_people_vaccinated
+FROM
+  `covid-19-341809.global_covid_19.covid_cases` dea
+JOIN
+  `covid-19-341809.global_covid_19.covid_vaccination` vac
+ON
+  dea.location = vac.location
+  AND dea.date = vac.date
+WHERE
+  dea.continent IS NOT NULL
+  AND vac.new_vaccinations IS NOT NULL
+  AND vac.new_vaccinations > 0
+ORDER BY
+  2
+```
+![image](https://user-images.githubusercontent.com/92245436/155462107-4111af96-778c-44bf-b0dc-2a1f7f602a45.png)
