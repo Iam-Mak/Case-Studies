@@ -61,7 +61,7 @@ global_covid_19 Database is created in BigQuery with two tables :
 - covid_vaccination (16207 rows and 45 columns)
 
 
-## Share  
+## Analyze & Share  
 
 - Graph 1 has normal x - axis and Graph 2 has logarithmic scale .
 - Logarithmic scales are useful when the data you are displaying is much less or much more than the rest of the data.
@@ -70,3 +70,10 @@ global_covid_19 Database is created in BigQuery with two tables :
 
 <img src="images/continet_cases.jpg" width="800" title="normal axis"> 
 <img src="images/continet_cases_log_scale.jpg" width="800" title="log axis ">
+
+### Countries with highest infection rate
+<img src="images/infection_rate.jpg" width="1800" title=" fatality_rate ">
+
+
+### Infection fatality ratio
+<img src="images/fatality_rate.jpg" width="1200" title=" fatality_rate ">
