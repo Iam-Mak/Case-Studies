@@ -7,7 +7,7 @@ Video games are big business: the global gaming market is projected to be worth 
 
 In this project, I'll explore the top 400 best-selling video games created between 1977 and 2020. I'll compare a dataset on game sales with critic and user reviews to determine whether or not video games have improved as the gaming market has grown.
  <br>
-Source : [WHO](https://www.who.int/health-topics/coronavirus#tab=tab_1)
+
 
 ### Objective : Exploration of the top 400 best-selling video games created between 1977 and 2020.
 
